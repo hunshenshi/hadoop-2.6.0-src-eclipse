@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-dist" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-dist" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-maven-plugins" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-maven-plugins" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-hdfs-bkjournal" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-hdfs-bkjournal" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-ant" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-ant" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-aws" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-aws" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-kms" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-kms" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-sls" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-sls" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-nfs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-nfs" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-mapreduce-client-hs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-mapreduce-client-hs" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-rumen" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-rumen" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-mapreduce-client-app" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-mapreduce-client-app" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-auth" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-auth" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-distcp" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-distcp" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-mapreduce-client-core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-mapreduce-client-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-api" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-api" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-extras" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-extras" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-mapreduce-client-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-mapreduce-client-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-minikdc" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-minikdc" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-mapreduce-client-shuffle" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-mapreduce-client-shuffle" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-gridmix" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-gridmix" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-annotations" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-annotations" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-mapreduce-client-jobclient" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-mapreduce-client-jobclient" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-archives" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-archives" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-auth-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-auth-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-mapreduce-client-hs-plugins" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-mapreduce-client-hs-plugins" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-datajoin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-datajoin" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-openstack" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-openstack" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-streaming" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-streaming" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-server-tests" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-server-tests" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-tools-dist" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-tools-dist" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-server-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-server-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-server-web-proxy" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-server-web-proxy" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-server-nodemanager" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-server-nodemanager" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-server-resourcemanager" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-server-resourcemanager" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-assemblies" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-assemblies" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-mapreduce-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-mapreduce-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-server-applicationhistoryservice" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-server-applicationhistoryservice" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-registry" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-registry" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-minicluster" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-minicluster" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-applications-distributedshell" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-applications-distributedshell" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-hdfs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-hdfs" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-yarn-applications-unmanaged-am-launcher" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-yarn-applications-unmanaged-am-launcher" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-hdfs-nfs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-hdfs-nfs" />
+      </profile>
+      <profile default="false" name="Annotation profile for hadoop-hdfs-httpfs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hadoop-hdfs-httpfs" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hadoop-annotations" target="1.6" />
+      <module name="hadoop-ant" target="1.6" />
+      <module name="hadoop-archives" target="1.6" />
+      <module name="hadoop-assemblies" target="1.6" />
+      <module name="hadoop-auth" target="1.6" />
+      <module name="hadoop-auth-examples" target="1.6" />
+      <module name="hadoop-aws" target="1.6" />
+      <module name="hadoop-client" target="1.6" />
+      <module name="hadoop-common" target="1.6" />
+      <module name="hadoop-common-project" target="1.5" />
+      <module name="hadoop-datajoin" target="1.6" />
+      <module name="hadoop-dist" target="1.6" />
+      <module name="hadoop-distcp" target="1.6" />
+      <module name="hadoop-extras" target="1.6" />
+      <module name="hadoop-gridmix" target="1.6" />
+      <module name="hadoop-hdfs" target="1.6" />
+      <module name="hadoop-hdfs-bkjournal" target="1.6" />
+      <module name="hadoop-hdfs-httpfs" target="1.6" />
+      <module name="hadoop-hdfs-nfs" target="1.6" />
+      <module name="hadoop-hdfs-project" target="1.5" />
+      <module name="hadoop-kms" target="1.6" />
+      <module name="hadoop-main" target="1.5" />
+      <module name="hadoop-mapreduce" target="1.5" />
+      <module name="hadoop-mapreduce-client" target="1.5" />
+      <module name="hadoop-mapreduce-client-app" target="1.6" />
+      <module name="hadoop-mapreduce-client-common" target="1.6" />
+      <module name="hadoop-mapreduce-client-core" target="1.6" />
+      <module name="hadoop-mapreduce-client-hs" target="1.6" />
+      <module name="hadoop-mapreduce-client-hs-plugins" target="1.6" />
+      <module name="hadoop-mapreduce-client-jobclient" target="1.6" />
+      <module name="hadoop-mapreduce-client-shuffle" target="1.6" />
+      <module name="hadoop-mapreduce-examples" target="1.6" />
+      <module name="hadoop-maven-plugins" target="1.6" />
+      <module name="hadoop-minicluster" target="1.6" />
+      <module name="hadoop-minikdc" target="1.6" />
+      <module name="hadoop-nfs" target="1.6" />
+      <module name="hadoop-openstack" target="1.6" />
+      <module name="hadoop-pipes" target="1.5" />
+      <module name="hadoop-project" target="1.5" />
+      <module name="hadoop-project-dist" target="1.5" />
+      <module name="hadoop-rumen" target="1.6" />
+      <module name="hadoop-sls" target="1.6" />
+      <module name="hadoop-streaming" target="1.6" />
+      <module name="hadoop-tools" target="1.5" />
+      <module name="hadoop-tools-dist" target="1.6" />
+      <module name="hadoop-yarn" target="1.5" />
+      <module name="hadoop-yarn-api" target="1.6" />
+      <module name="hadoop-yarn-applications" target="1.5" />
+      <module name="hadoop-yarn-applications-distributedshell" target="1.6" />
+      <module name="hadoop-yarn-applications-unmanaged-am-launcher" target="1.6" />
+      <module name="hadoop-yarn-client" target="1.6" />
+      <module name="hadoop-yarn-common" target="1.6" />
+      <module name="hadoop-yarn-project" target="1.5" />
+      <module name="hadoop-yarn-registry" target="1.6" />
+      <module name="hadoop-yarn-server" target="1.5" />
+      <module name="hadoop-yarn-server-applicationhistoryservice" target="1.6" />
+      <module name="hadoop-yarn-server-common" target="1.6" />
+      <module name="hadoop-yarn-server-nodemanager" target="1.6" />
+      <module name="hadoop-yarn-server-resourcemanager" target="1.6" />
+      <module name="hadoop-yarn-server-tests" target="1.6" />
+      <module name="hadoop-yarn-server-web-proxy" target="1.6" />
+      <module name="hadoop-yarn-site" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>key.acl.kCC.ALL</name><value>foo1</value><source>programatically</source></property>
+<property><name>hadoop.kms.authentication.type</name><value>simple</value><source>programatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.principal</name><value>HTTP/localhost</value><source>programatically</source></property>
+<property><name>hadoop.kms.proxyuser.client.users</name><value>foo,bar</value><source>programatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.keytab</name><value>F:\bigdata\hadoop-2.6.0-src-eclipse\hadoop-common-project\hadoop-kms\target\9dc717d1-36a0-4544-bd9d-afbccf93d859\keytab</value><source>programatically</source></property>
+<property><name>key.acl.kDD.ALL</name><value>bar</value><source>programatically</source></property>
+<property><name>hadoop.kms.key.provider.uri</name><value>jceks://file@/F:/bigdata/hadoop-2.6.0-src-eclipse/hadoop-common-project/hadoop-kms/target/abe11067-eedf-4d10-917c-37487d24aef7/kms.keystore</value><source>programatically</source></property>
+<property><name>key.acl.kAA.ALL</name><value>client</value><source>programatically</source></property>
+<property><name>hadoop.kms.proxyuser.client.hosts</name><value>*</value><source>programatically</source></property>
+<property><name>key.acl.kBB.ALL</name><value>foo</value><source>programatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.name.rules</name><value>DEFAULT</value><source>programatically</source></property>
+</configuration>

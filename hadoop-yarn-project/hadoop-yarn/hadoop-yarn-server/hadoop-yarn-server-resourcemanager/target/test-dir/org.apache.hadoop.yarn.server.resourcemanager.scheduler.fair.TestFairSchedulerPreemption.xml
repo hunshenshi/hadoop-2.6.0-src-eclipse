@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<allocations>
+<queue name="default">
+<maxResources>0mb,0vcores</maxResources>
+</queue>
+<queue name="queueA">
+<weight>1</weight>
+<minResources>1024mb,0vcores</minResources>
+</queue>
+<queue name="queueB">
+<weight>1</weight>
+<minResources>1024mb,0vcores</minResources>
+</queue>
+<defaultMinSharePreemptionTimeout>5</defaultMinSharePreemptionTimeout><fairSharePreemptionTimeout>10</fairSharePreemptionTimeout></allocations>

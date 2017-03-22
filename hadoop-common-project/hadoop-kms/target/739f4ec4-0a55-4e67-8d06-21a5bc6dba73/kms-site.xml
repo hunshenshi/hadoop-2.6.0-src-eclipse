@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>key.acl.k1.ALL</name><value>*</value><source>programatically</source></property>
+<property><name>hadoop.kms.authentication.type</name><value>simple</value><source>programatically</source></property>
+<property><name>key.acl.k2.MANAGEMENT</name><value>*</value><source>programatically</source></property>
+<property><name>hadoop.kms.key.provider.uri</name><value>jceks://file@/F:/bigdata/hadoop-2.6.0-src-eclipse/hadoop-common-project/hadoop-kms/target/739f4ec4-0a55-4e67-8d06-21a5bc6dba73/kms.keystore</value><source>programatically</source></property>
+<property><name>key.acl.k2.READ</name><value>*</value><source>programatically</source></property>
+<property><name>key.acl.k6.ALL</name><value>*</value><source>programatically</source></property>
+<property><name>key.acl.k5.ALL</name><value>*</value><source>programatically</source></property>
+<property><name>key.acl.k4.ALL</name><value>*</value><source>programatically</source></property>
+<property><name>key.acl.k3.ALL</name><value>*</value><source>programatically</source></property>
+</configuration>

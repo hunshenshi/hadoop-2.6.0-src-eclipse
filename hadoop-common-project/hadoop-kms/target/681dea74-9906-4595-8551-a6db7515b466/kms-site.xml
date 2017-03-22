@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>hadoop.kms.acl.SET_KEY_MATERIAL</name><value>SET_KEY_MATERIAL</value><source>programatically</source></property>
+<property><name>default.key.acl.MANAGEMENT</name><value>ROLLOVER</value><source>programatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.name.rules</name><value>DEFAULT</value><source>programatically</source></property>
+<property><name>key.acl.test_key.MANAGEMENT</name><value>CREATE</value><source>programatically</source></property>
+<property><name>hadoop.kms.acl.ROLLOVER</name><value>CREATE,ROLLOVER,GET,SET_KEY_MATERIAL,GENERATE_EEK</value><source>programatically</source></property>
+<property><name>hadoop.kms.acl.CREATE</name><value>CREATE,ROLLOVER,GET,SET_KEY_MATERIAL,GENERATE_EEK</value><source>programatically</source></property>
+<property><name>hadoop.kms.key.provider.uri</name><value>jceks://file@/F:/bigdata/hadoop-2.6.0-src-eclipse/hadoop-common-project/hadoop-kms/target/681dea74-9906-4595-8551-a6db7515b466/kms.keystore</value><source>programatically</source></property>
+<property><name>key.acl.all_access.DECRYPT_EEK</name><value>ROLLOVER</value><source>programatically</source></property>
+<property><name>hadoop.kms.acl.DELETE</name><value>DELETE</value><source>programatically</source></property>
+<property><name>hadoop.kms.acl.GET_METADATA</name><value>GET_METADATA</value><source>programatically</source></property>
+<property><name>hadoop.kms.acl.GET</name><value>GET</value><source>programatically</source></property>
+<property><name>hadoop.kms.acl.GENERATE_EEK</name><value>CREATE,ROLLOVER,GET,SET_KEY_MATERIAL,GENERATE_EEK</value><source>programatically</source></property>
+<property><name>hadoop.kms.acl.DECRYPT_EEK</name><value>CREATE,ROLLOVER,GET,SET_KEY_MATERIAL,GENERATE_EEK</value><source>programatically</source></property>
+<property><name>key.acl.all_access.ALL</name><value>GENERATE_EEK</value><source>programatically</source></property>
+<property><name>hadoop.kms.authentication.type</name><value>kerberos</value><source>programatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.principal</name><value>HTTP/localhost</value><source>programatically</source></property>
+<property><name>hadoop.kms.acl.GET_KEYS</name><value>GET_KEYS</value><source>programatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.keytab</name><value>F:\bigdata\hadoop-2.6.0-src-eclipse\hadoop-common-project\hadoop-kms\target\9dc717d1-36a0-4544-bd9d-afbccf93d859\keytab</value><source>programatically</source></property>
+</configuration>
