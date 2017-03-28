@@ -34,6 +34,7 @@ import org.apache.hadoop.yarn.api.records.Priority;
 import org.apache.hadoop.yarn.api.records.Resource;
 import org.apache.hadoop.yarn.conf.YarnConfiguration;
 import org.apache.hadoop.yarn.server.resourcemanager.rmcontainer.RMContainer;
+import org.apache.hadoop.yarn.server.resourcemanager.rmcontainer.RMContainerImpl;
 import org.apache.hadoop.yarn.server.resourcemanager.rmcontainer.RMContainerState;
 import org.apache.hadoop.yarn.server.resourcemanager.rmnode.RMNode;
 import org.apache.hadoop.yarn.util.resource.Resources;
@@ -52,6 +53,20 @@ public abstract class SchedulerNode {
   private Resource usedResource = Resource.newInstance(0, 0);
   private Resource totalResourceCapability;
   private RMContainer reservedContainer;
+
+  public List<RMContainer> getPreContainer() {
+    return preContainer;
+  }
+
+  public void setPreContainer(List<RMContainer> preContainer) {
+    this.preContainer = preContainer;
+  }
+
+  //  add for preContainer  预先准备container
+  //  先声明list,随后改成队列 , 队列为null,则create,否则pop
+  //  在哪更新队列的值,即向队列中增加container
+  private List<RMContainer> preContainer = null;
+
   private volatile int numContainers;
 
 
@@ -71,6 +86,10 @@ public abstract class SchedulerNode {
     } else {
       nodeName = rmNode.getHostName();
     }
+
+    // 最小调度单元
+    preContainer = new ArrayList<RMContainer>(2);
+//    preContainer.add(new RMContainerImpl());
   }
 
   public RMNode getRMNode() {

@@ -284,7 +284,7 @@ public class YARNRunner implements ClientProtocol {
     // Construct necessary information to start the MR AM
     ApplicationSubmissionContext appContext =
       createApplicationSubmissionContext(conf, jobSubmitDir, ts);
-
+    // 在createApplicationSubmissionContext中埋点appContext ready log
     // Submit to ResourceManager
     try {
       ApplicationId applicationId =
@@ -338,6 +338,7 @@ public class YARNRunner implements ClientProtocol {
             )
         );
     LOG.debug("AppMaster capability = " + capability);
+    LOG.info("{intellij} get resoucrce size from conf. AppMaster capability = " + capability);
 
     // Setup LocalResources
     Map<String, LocalResource> localResources =
@@ -455,6 +456,8 @@ public class YARNRunner implements ClientProtocol {
     LOG.debug("Command to launch container for ApplicationMaster is : "
         + mergedCommand);
 
+    LOG.info("{intellij} am prepare, Command to launch container for ApplicationMaster is : "
+            + mergedCommand);
     // Setup the CLASSPATH in environment
     // i.e. add { Hadoop jars, job jar, CWD } to classpath.
     Map<String, String> environment = new HashMap<String, String>();
@@ -488,6 +491,7 @@ public class YARNRunner implements ClientProtocol {
         MRJobConfig.DEFAULT_JOB_ACL_MODIFY_JOB));
 
     // Setup ContainerLaunchContext for AM container
+    LOG.info("{intellij} get amContainer, this is what? rpc or not");
     ContainerLaunchContext amContainer =
         ContainerLaunchContext.newInstance(localResources, environment,
           vargsFinal, null, securityTokens, acls);
@@ -536,7 +540,7 @@ public class YARNRunner implements ClientProtocol {
     if (tagsFromConf != null && !tagsFromConf.isEmpty()) {
       appContext.setApplicationTags(new HashSet<String>(tagsFromConf));
     }
-
+    LOG.info("{intellij} appContext is ready");
     return appContext;
   }
 

@@ -528,13 +528,15 @@ class JobSubmitter {
 
       // Write job file to submit dir
       writeConf(conf, submitJobFile);
-      
+      LOG.info("{intellij} job configuration");
       //
       // Now, actually submit the job (using the submit name)
       //
       printTokens(jobId, job.getCredentials());
       status = submitClient.submitJob(
           jobId, submitJobDir.toString(), job.getCredentials());
+      LOG.info("{intellij} job already submit");
+      LOG.info("{intellij} job status is " + status.getState());
       if (status != null) {
         return status;
       } else {

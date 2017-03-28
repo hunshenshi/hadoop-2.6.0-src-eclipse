@@ -1288,6 +1288,7 @@ public class Job extends JobContextImpl implements JobContext {
     ensureState(JobState.DEFINE);
     setUseNewAPI();
     connect();
+    LOG.info("{intellij} The job start submit, jobState is define");
     final JobSubmitter submitter = 
         getJobSubmitter(cluster.getFileSystem(), cluster.getClient());
     status = ugi.doAs(new PrivilegedExceptionAction<JobStatus>() {
